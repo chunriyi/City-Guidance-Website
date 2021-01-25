@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Main Page</title>
+  <link rel="stylesheet" href="../css/main-page.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <h1 class="text-center pt-4">
+    Winnipeg Daily
+  </h1>
+  
+  <div class="row">
+      <a class="daily-discount" href="daily-discount.html" >DAILY DISCOUNT</a>
+
+      <a class="job-posting" href="job-posting.html">JOB POSTING</a>
+
+      <a class="second" href="2nd-hand.html" >2ND-HAND</a>
+
+      <div class="sign">
+        <a href="sign-in.html" id="sign-in">sign in</a>
+        <span>/</span>
+        <a href="sign-up.html" id="sign-up">sign up</a>
+      </div>    
+  </div>
+
+ <div class="flex-container">
+  <p class="big">
+    <img src="jets_go.jpg" class="img-fluid" id = "jets" alt="Let's go Jets!">
+  </p>
+
+  <table id = "table1" class="text-center">
+    <tr>
+      <th> Advertisement 1</th>
+      <th> Advertisement 2</th>
+    </tr>
+    <tr>
+      <th> Advertisement 3</th>
+      <th> Advertisement 4</th>
+    </tr>
+  </table>
+ </div>
+
+  <table style="width:100%" id="table2" class="text-center">
+    <tr>
+      <th id="weather" style="width:50%">
+        <!-- weather widget start -->
+        <a target="_blank" href="https://www.booked.net/weather/winnipeg-30525"><img class="weather-img" src="https://w.bookcdn.com/weather/picture/26_30525_1_1_ecf0f1_250_bdc3c7_9da2a6_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=569&anc_id=91348"  alt="booked.net"/>
+        </a>
+        <!-- weather widget end -->
+      </th>
+      <th rowspan="2"> City description</th>
+    </tr>
+    <tr>
+      <th><a href="https://www.gasbuddy.com/GasPrices/Manitoba/Winnipeg" class="gas-price">Gas Price</a></th>
+    </tr>
+  </table>
+
+  <style>
+    body {
+      background-image: url('back1.jpg'); 
+      background-repeat: no-repeat;
+      width: 100%;
+      min-height: 100vh;
+      background-size: cover;
+    }
+   
+  </style>
+  </body>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/main-page.js"></script>

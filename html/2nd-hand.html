@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2nd hand</title>
+    <link rel="stylesheet" href="../css/2nd-hand.css">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <form>
+        <div class="form-content ml-4">
+            <p>
+                Title:<br>
+                <input type="text" name="textline" size="30" id="title">
+            </p>
+
+            <p>
+                Description:<br>
+                <textarea type="text" id="content" name="textline" rows="4" size="100"></textarea>
+            </p>
+
+            <div>
+                <canvas id="can1"></canvas>
+            </div>
+
+            <p>
+                Please upload the picture:<br>
+                <input type="file" size="40" multiple="false" accept="image/*" id="finput" onchange="loadPic()">
+            </p>
+        </div>
+
+        </div>
+
+        <div>
+            <button type="button" onclick="history.back()">Back</button>
+
+            <a href="main-page.html" class="main-page">Main Page</a>
+
+            <button type="submit" id="submit">Post</button>
+        </div>
+
+    </form>
+
+    <style>
+        body {
+            background-image: url('back2.jpg');
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 100vh;
+            background-size: cover;
+        }
+    </style>
+
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <script src="../js/2nd-hand.js"></script>
+</body>

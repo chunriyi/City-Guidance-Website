@@ -1,0 +1,52 @@
+<!-- used to inform a website visitor's browser that the document being rendered is an HTML document.
+While not actually an HTML element itself, every HTML document should being with a DOCTYPE declaration
+to be compliant with HTML standards. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign up</title>
+  <link rel="stylesheet" href="../css/sign-up.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<form>
+  <div class="container">
+    <h1>Register</h1>
+    <hr class="mb-3">
+    
+    <label for = "user-name"><b>User Name</b></label>
+    <input type = "text" placeholder = "Enter User Name" name = "user-name" id = "user-name" required>
+    
+    <label for = "psw"><b>Password</b></label>
+    <input type = "password" placeholder = "Enter Password" name = "psw" id = "psw" required>
+    
+    <label for = "psw-repeat"><b>Repeat Password</b></label>
+    <input type = "password" placeholder = "Repeat Password" name = "psw-repeat" id = "psw-repeat" required>
+    <hr>
+    
+    <button type = "submit" class = "registerbtn" id="register">Register</button>
+  </div>
+
+
+  
+  <div class = "container signin">
+
+    <p>Already have an account? <a href = "sign-in.html">Sign in</a>.</p>
+  </div>
+</form>
+
+<script src="../js/register.js"></script>
+</body>
+</html>

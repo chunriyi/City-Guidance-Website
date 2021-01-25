@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../css/sign-in.css">
+    <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <form>
+    <div class = "container">
+        <h1>Sign in</h1>
+        <hr class="mb-4">
+
+        <label for="user-name"><b>User name</b></label>
+        <input type="text" placeholder = "Enter User Name" name = "user-name" id="login-user" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder = "Enter Password" name = "psw" id = "login-psw" required>
+        <hr>
+
+        <button type="submit" id="login">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <input type="button" value="Back" onclick="history.back()">
+
+        <a href="main-page.html" class="main-page">Main Page</a>
+        
+        <a href="#" class="psw" >Forgot password?</a></span>
+    </div>
+    </form>
+
+    <script src="../js/login.js"></script>
+</body>
